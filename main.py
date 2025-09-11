@@ -44,6 +44,57 @@ player = {
 def clear_terminal():
     os.system("cls" if os.name == "nt" else "clear")
     
+# Used https://www.asciiart.eu/text-to-ascii-art
+def print_starting_screen():
+    logo = r"""
+++--------------------------------------------------++
+++--------------------------------------------------++
+||    __        __   _                              ||
+||    \ \      / /__| | ___ ___  _ __ ___   ___     ||
+||     \ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \    ||
+||      \ V  V /  __/ | (_| (_) | | | | | |  __/    ||
+||       \_/\_/ \___|_|\___\___/|_| |_| |_|\___|    ||
+||                                                  ||
+||                   _                              ||
+||                  | |_ ___                        ||
+||                  | __/ _ \                       ||
+||                  | || (_) |                      ||
+||                   \__\___/                       ||
+||                                                  ||
+||   ____        _                              _   ||
+||  |  _ \  __ _| |_ __ _ _ __ ___   ___  _ __ | |  ||
+||  | | | |/ _` | __/ _` | '_ ` _ \ / _ \| '_ \| |  ||
+||  | |_| | (_| | || (_| | | | | | | (_) | | | |_|  ||
+||  |____/ \__,_|\__\__,_|_| |_| |_|\___/|_| |_(_)  ||
+||                                                  ||
+++--------------------------------------------------++
+++--------------------------------------------------++
+                                                               
+    """
+    print(logo)
+    input("Press any key to continue...")
+    clear_terminal()
+
+
+def print_menu():
+    logo = r"""
+.-----------------------------------------------------------------------------.
+|                                                                             |
+| ____        _                                       __  __                  |
+||  _ \  __ _| |_ __ _ _ __ ___   ___  _ __    _     |  \/  | ___ _ __  _   _ |
+|| | | |/ _` | __/ _` | '_ ` _ \ / _ \| '_ \  (_)    | |\/| |/ _ \ '_ \| | | ||
+|| |_| | (_| | || (_| | | | | | | (_) | | | |  _     | |  | |  __/ | | | |_| ||
+||____/ \__,_|\__\__,_|_| |_| |_|\___/|_| |_| (_)    |_|  |_|\___|_| |_|\__,_||
+|                                                                             |
+'-----------------------------------------------------------------------------'                                                       
+    """
+    print(logo)
+    print(f"\t\t\t\tPLAYER: {player['name']}\n")
+    print("1] Answer Checker")
+    print("2] Memory Bank")
+    print("3] Number Guesser")
+    print("0] Exit\n")
+
 # Sprint 1?
 def answer_checker():
     print("\n[Answer Checker]")
@@ -62,18 +113,15 @@ def number_guesser():
 
 ### Main method (where the game will loop) ###
 def main():
-    print("Welcome to DataMon!")
-    player["name"] = input("What is your name?: ")
-    print(f"Player saved: {player}\n")
+#Setting up Game/Player
+    print_starting_screen()
+    print("Creating Player!")
+    player["name"] = input("Enter your name?: ")
 
+# Game Loop starts here
     while True:
         clear_terminal()
-        print(f"Welcome to DataMon! ({player['name']})")
-        print("1] Answer Checker")
-        print("2] Memory Bank")
-        print("3] Number Guesser")
-        print("0] Exit\n")
-
+        print_menu() # Edit menu in this function
         choice = input("Selected: ")
 
         # Check for valid input
@@ -82,7 +130,7 @@ def main():
             input("Press Enter to continue...")
             continue
 
-        choice = int(choice)
+        choice = int(choice) #cast to integer
         clear_terminal()
         
         # Switch-case
