@@ -148,19 +148,18 @@ def main():
         choice = int(choice) #cast to integer
         clear_terminal()
         
-        # Switch-case
-        match choice:
-            case 1:
-                answer_checker()
-            case 2:
-                memory_bank()
-            case 3:
-                number_guesser()
-            case 0:
-                print("\n👋 Goodbye!")
-                break
-            case _:
-                print("⚠️ Invalid option!")
+        # Menu choices
+        if choice == 1:
+            answer_checker()
+        elif choice == 2:
+            memory_bank()
+        elif choice == 3:
+            number_guesser()
+        elif choice == 0:
+            print("\n👋 Goodbye!")
+            break
+        else:
+            print("⚠️ Invalid option!")
 
         input("\nPress Enter to return to the menu...")
 
