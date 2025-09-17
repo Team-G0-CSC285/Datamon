@@ -1,7 +1,7 @@
 # Datamon
-Datamon Group Project
+## Datamon Group Project
 
-Math Practice Game
+### Math Practice Game
 
 A simple text-based math practice game built with Python.
 Players can solve math problems, track their answers, and accumulate scores across different mini-games.
@@ -12,7 +12,7 @@ Answer Checker – Create math problems, input answers, and get immediate feedba
 
 Other games (Memory Bank and Number Guesser) are placeholders for future development.
 
-Features
+## Features
 
 Player Profile
 Each session stores:
@@ -35,7 +35,7 @@ Tracks performance per round and overall accumulated score.
 
 Displays a summary of all attempted problems.
 
-Terminal UI
+## Terminal UI
 
 ASCII-art start screen and menus.
 
@@ -45,7 +45,7 @@ Clears the terminal between screens for readability.
 
 
 
-Roadmap
+# Roadmap
 
 Sprint 1 ✅ – Implement answer_checker game.
 
