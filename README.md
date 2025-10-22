@@ -1,12 +1,12 @@
-Datamon – Math Practice Game
+# Datamon – Math Practice Game #
 
 A Python-based, text-driven math practice game designed to enhance arithmetic skills through interactive mini-games.
 
-🎮 Overview
+## 🎮 Overview
 
 Datamon is an educational tool aimed at making math practice engaging and accessible. Players can solve math problems, receive immediate feedback, and track their progress across various mini-games.
 
-🧩 Features
+## 🧩 Features
 
 Answer Checker: Generate math problems, input answers, and get instant feedback.
 
@@ -16,12 +16,12 @@ Number Guesser: A placeholder for an upcoming game feature.
 
 Player Profiles: Store player names, answers, and scores for each session.
 
-🚀 Getting Started
+## 🚀 Getting Started
 Prerequisites
 
 Python 3.6 or higher
 
-Installation
+### Installation
 
 Clone the repository:
 
@@ -33,11 +33,11 @@ Navigate into the project directory:
 cd Datamon
 
 
-Run the game:
+### Run the game:
 
 python main.py
 
-🧪 How to Play
+## 🧪 How to Play
 
 Upon starting, you'll be prompted to enter your name.
 
@@ -47,7 +47,7 @@ Answer the math problems presented.
 
 Receive feedback on your answers and view your score at the end of each session.
 
-🛠️ Development Setup
+## 🛠️ Development Setup
 
 Ensure Python 3.6+ is installed.
 
@@ -59,12 +59,13 @@ Run the game using the command:
 
 python main.py
 
-📄 License
+## 📄 License
 
-This project is licensed under the MIT License – see the LICENSE
- file for details.
+This project is licensed under the MIT License 
 
-🤝 Contributing
+### *PROPERTY OF ALGOCRATIC*
+
+## 🤝 Contributing
 
 We welcome contributions to enhance Datamon! To contribute:
 
@@ -78,17 +79,17 @@ Push to your forked repository.
 
 Submit a pull request detailing your changes.
 
-📚 Resources
+## 📚 Resources
 
 Python Documentation
 
 GitHub Markdown Guide
 
-📞 Contact
+## 📞 Contact
 
 For inquiries or feedback, please reach out to:
 
-Members of Team G0: 
+### Members of Team G0: 
 
 Mattea: isleym9447
 
