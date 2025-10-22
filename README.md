@@ -1,58 +1,101 @@
-                    
+Datamon – Math Practice Game
+
+A Python-based, text-driven math practice game designed to enhance arithmetic skills through interactive mini-games.
+
+🎮 Overview
+
+Datamon is an educational tool aimed at making math practice engaging and accessible. Players can solve math problems, receive immediate feedback, and track their progress across various mini-games.
+
+🧩 Features
+
+Answer Checker: Generate math problems, input answers, and get instant feedback.
+
+Memory Bank: A future mini-game to be developed.
+
+Number Guesser: A placeholder for an upcoming game feature.
+
+Player Profiles: Store player names, answers, and scores for each session.
+
+🚀 Getting Started
+Prerequisites
+
+Python 3.6 or higher
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/Team-G0-CSC285/Datamon.git
 
 
-## Datamon Group Project
+Navigate into the project directory:
 
-### Math Practice Game
-
-A simple text-based math practice game built with Python.
-Players can solve math problems, track their answers, and accumulate scores across different mini-games.
-
-Currently implemented mini-game:
-
-Answer Checker – Create math problems, input answers, and get immediate feedback.
-
-Other games (Memory Bank and Number Guesser) are placeholders for future development.
-
-## Features
-
-Player Profile
-Each session stores:
-
-Player name
-
-Answer history (correct/incorrect)
-
-Scores for each mini-game
-
-Answer Checker
-
-User creates math problems step-by-step (number → operator → number).
-
-Program checks answers, including division with quotient + remainder.
-
-Supports retry attempts.
-
-Tracks performance per round and overall accumulated score.
-
-Displays a summary of all attempted problems.
-
-## Terminal UI
-
-ASCII-art start screen and menus.
-
-Clears the terminal between screens for readability.
+cd Datamon
 
 
+Run the game:
 
+python main.py
 
+🧪 How to Play
 
-# Roadmap
+Upon starting, you'll be prompted to enter your name.
 
-Sprint 1 ✅ – Implement answer_checker game.
+Choose a mini-game to play.
 
-Sprint 2 🚧 – Add memory_bank game (pattern recall).
+Answer the math problems presented.
 
-Sprint 3 🚧 – Add number_guesser game (higher/lower guessing).
+Receive feedback on your answers and view your score at the end of each session.
 
-Future – Persistent save files, difficulty levels, multiplayer turns.
+🛠️ Development Setup
+
+Ensure Python 3.6+ is installed.
+
+Clone the repository and navigate into the project directory.
+
+Install any necessary dependencies (if applicable).
+
+Run the game using the command:
+
+python main.py
+
+📄 License
+
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
+
+🤝 Contributing
+
+We welcome contributions to enhance Datamon! To contribute:
+
+Fork the repository.
+
+Create a new branch for your feature or bugfix.
+
+Make your changes and commit them.
+
+Push to your forked repository.
+
+Submit a pull request detailing your changes.
+
+📚 Resources
+
+Python Documentation
+
+GitHub Markdown Guide
+
+📞 Contact
+
+For inquiries or feedback, please reach out to:
+
+Members of Team G0: 
+
+Mattea: isleym9447
+
+Joey: ackermaj5301
+
+Cornelius: CorneliusRDavis
+
+Luis: luisdrg
+
+Paul: PaulGayle
