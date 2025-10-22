@@ -1,16 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 22 14:10:49 2025
-
-@author: paulg
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 10 15:33:56 2025
-
-@author: paulg
-"""
 
 # imported modules
 import json
@@ -196,4 +184,5 @@ if __name__ == "__main__":
         
         
         
+
         
